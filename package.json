@@ -2,7 +2,7 @@
   "name": "first_code_node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
     "start": "node ./main.js",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/pipemetrio/first_code_node.git"
   },
-  "author": "",
+  "author": "Andres Metrio",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pipemetrio/first_code_node/issues"
