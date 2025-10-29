@@ -5,7 +5,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "node ./main.js",
+    "start": "node --watch app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/pipemetrio/first_code_node/issues"
   },
-  "homepage": "https://github.com/pipemetrio/first_code_node#readme"
+  "homepage": "https://github.com/pipemetrio/first_code_node#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
