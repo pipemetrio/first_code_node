@@ -5,8 +5,11 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "node --watch app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --watch src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prisma:studio": "npx prisma studio",
+    "prisma:generate": "npx prisma generate",
+    "prisma:push": "npx prisma db push"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,7 @@
   },
   "homepage": "https://github.com/pipemetrio/first_code_node#readme",
   "dependencies": {
+    "@prisma/Client": "npm:@prisma/client@^6.19.0",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "prisma": "^6.18.0"
